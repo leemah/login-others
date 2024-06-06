@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background: url(images/Downpic.cc-1463029340.jpg);
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background: rgba(150, 3, 247, 0.396); */
+    padding: 10px 0px;
+   
+}
+nav .navigation {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #c500e3;
+}
+
+.nav-order-btn {
+    padding: 8px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #c500e3;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-order-btn:hover {
+    background-color: transparent;
+    border: 1px solid #c500e3;
+    color: #c500e3;
+}
+
+.login-container{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(133, 132, 132, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.371);
+}
+.login-details{
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #f9f9f9;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #f9f9f9;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(176, 176, 176, 0.184);
+    color: #f9f9f9;
+}
+/* styling for login button */
+.login-btn {
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+/* styling for alternative login */
+.social-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.google-btn, .facebook-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.google-btn, .facebook-btn i{
+    margin-right: 10px;
+}
+
+.google-btn {
+    background: rgba(176, 176, 176, 0.184);
+}
+
+.facebook-btn {
+    background: rgba(176, 176, 176, 0.184);
+    backdrop-filter: blur(25px);
+}

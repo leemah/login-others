@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css">
+    <script>
+        function goToPage(event) {
+            event.preventDefault(); // Prevent form submission
+            window.location.href = 'form.html';
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation Starts Here -->
+    <nav>
+        <div class="navigation">
+            <div class="nav-menu">
+                <a href="#">Home</a>
+                <a href="form.html">Form</a>
+                <a href="dog.html">Dog</a>
+                <a href=" ">Video</a>
+                <a href=" ">Gallery</a>
+                
+            </div>
+            <button class="nav-order-btn">Order Now</button>
+        </div>
+        
+    </nav>
+    <!-- Navigation Ends Here -->
+
+    <!-- login container starts here -->
+    <div class="login-container">
+        <!-- container that hold login details -->
+        <div class="login-details">
+            <!-- login heading text -->
+            <h1>Login Here</h1>
+            <!-- form where user input details starts here -->
+        <form >
+            <!-- user inputs username here -->
+            <label for="">Username</label>
+            <input type="text" placeholder="Email or Phone">
+            <!-- user inputs password here -->
+            <label for="">Password</label>
+            <input type="password" placeholder="Password">
+            <!-- login button -->
+            <button class="login-btn" onclick="goToPage(event)">Login</button>
+            <!-- alternative login for users -->
+            <div class="social-btn">
+                <button class="google-btn" ><i class="fa-brands fa-google"></i> Google</button>
+                <button class="facebook-btn"><i class="fa-brands fa-facebook"></i>Facebook</button>
+            </div>
+        </form>
+        <!-- form where user input details ends here -->
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
