@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
 }
 
 
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 h1 {
@@ -22,7 +22,7 @@ h2 {
     color: #8B0000;
     padding-bottom: 5px;
     background-color: #FFFFE0;
-    
+   
 }
 
 p {
@@ -56,10 +56,18 @@ td a{
     color: #2f7402;
     font-weight: 600;
 }
+td.number{
+    color: #8B0000;
+    text-decoration: underline;
+}
 
 th {
     background-color: #f2f2f2;
 
+}
+
+.database, .artificial{
+    background-color: #939494;
 }
 
 .credit {
@@ -104,7 +112,7 @@ button:hover {
 
 .dog-img {
     position: absolute;
-    top: 100px; 
+    top: 80px; 
     right: 20px; 
 }
 
